@@ -2,7 +2,7 @@
  A simple package to extend the functionality of complex numbers in R. Adding conversion between rectangular and polar form. Created to ease the use of the R console for simple complex number calculations.
  
  ## Getting Started
- To install the current version;
+ To install the version under develoment;
  ```r
  if (!require("devtools")) {
   install.packages("devtools")
