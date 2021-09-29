@@ -11,3 +11,11 @@
 
 install_github("roh6608/complexr")
  ```
+To get documentation on the functions run either;
+```r
+?polar_rect
+```
+or 
+```r
+?rect_polar
+```
