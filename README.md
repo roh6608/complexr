@@ -11,11 +11,4 @@
 
 install_github("roh6608/complexr")
  ```
-To get documentation on the functions run either;
-```r
-?polar_rect
-```
-or 
-```r
-?rect_polar
-```
+Documentation can be found by using the question mark in the R-console, eg. ```?polar_rect```.
