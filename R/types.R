@@ -4,7 +4,7 @@
 #' @param arg The argument of the complex number or vector of arguments, in radians.
 #' @return The rectangular form of the complex number.
 #' @examples
-#' polar_rect(1,45)
+#' polar_rect(1,pi/4)
 polar_rect = function(mod, arg){
   x = mod*cos(arg)
   y = mod*sin(arg)
