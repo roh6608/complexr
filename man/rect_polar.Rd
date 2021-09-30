@@ -4,17 +4,19 @@
 \alias{rect_polar}
 \title{Convert from rectangular to polar form}
 \usage{
-rect_polar(z)
+rect_polar(z, ang = "rad")
 }
 \arguments{
 \item{z}{A complex number or vector of complex numbers in rectangular form.}
+
+\item{ang}{The units for the output, can either be rad or deg, defaults to rad.}
 }
 \value{
-The polar form of the complex number as a list, note the argument is in radians.
+The polar form of the complex number as a list, note the units are as specified by ang.
 }
 \description{
 Convert from rectangular to polar form
 }
 \examples{
-rect_polar(1+1i)
+rect_polar(1+1i, "deg")
 }

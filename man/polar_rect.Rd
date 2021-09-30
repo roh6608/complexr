@@ -4,12 +4,14 @@
 \alias{polar_rect}
 \title{Convert from polar to rectangular form}
 \usage{
-polar_rect(mod, arg)
+polar_rect(mod, arg, ang = "rad")
 }
 \arguments{
 \item{mod}{The modulus of the complex number, or vector of moduli.}
 
-\item{arg}{The argument of the complex number or vector of arguments, in radians.}
+\item{arg}{The argument of the complex number or vector of arguments.}
+
+\item{ang}{The units for the argument of the complex number, can either be rad or deg, defaults to rad.}
 }
 \value{
 The rectangular form of the complex number.
@@ -18,5 +20,5 @@ The rectangular form of the complex number.
 Convert from polar to rectangular form
 }
 \examples{
-polar_rect(1,pi/4)
+polar_rect(1,pi/4,"rad")
 }
