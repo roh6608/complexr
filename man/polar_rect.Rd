@@ -18,5 +18,5 @@ The rectangular form of the complex number.
 Convert from polar to rectangular form
 }
 \examples{
-polar_rect(1,45)
+polar_rect(1,pi/4)
 }
