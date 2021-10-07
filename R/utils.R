@@ -5,7 +5,11 @@
 #' @examples
 #' deg_rad(90)
 deg_rad = function(x){
-  return(x*pi/180)
+  if(is.numeric(x) != T){
+    stop("Wrong type passed to x, please pass values of numeric type.")
+  } else{
+    return(x*pi/180)
+  }
 }
 
 #' Convert radians to degrees
@@ -15,5 +19,9 @@ deg_rad = function(x){
 #' @examples
 #' rad_deg(pi/2)
 rad_deg = function(x){
-  return(x*180/pi)
+  if(is.numeric(x) != T){
+    stop("Wrong type passed to x, please pass values of numeric type.")
+  } else{
+    return(x*180/pi)
+  }
 }
